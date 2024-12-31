@@ -58,7 +58,6 @@
         background-position: center; /* تعديل هنا */
         background-repeat: no-repeat; /* تعديل هنا */
         margin: 0; /* إزالة المارجن */
-        padding: 0; /* إزالة البادنج */
     }
 
     .header-overlay {
