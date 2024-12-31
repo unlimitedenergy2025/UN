@@ -317,7 +317,6 @@
 <h2>Role of His Royal Highness Foundation</h2>
 <p>
     "Youth are the backbone of the nation and the foundation of the future. It is essential to empower them and provide opportunities for them to lead change and shape Jordan’s future. At the Crown Prince Foundation, we are working towards achieving this goal by supporting initiatives that enhance their role in various fields."
-    </blockquote>
     <p class="quote-author">– His Royal Highness Prince Hussein bin Abdullah II</p>
 </div>
 
