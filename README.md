@@ -331,7 +331,6 @@
 <p>
 
 </p>
-</section>
 
 <!-- Origin Section -->
 <section id="origin-section" class="foundation-section">
