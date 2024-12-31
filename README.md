@@ -57,7 +57,6 @@
         background-size: contain; /* تعديل هنا */
         background-position: center; /* تعديل هنا */
         background-repeat: no-repeat; /* تعديل هنا */
-        margin: 0; /* إزالة المارجن */
     }
 
     .header-overlay {
@@ -94,11 +93,10 @@
     .foundation-section {
         position: relative;
         color: white;
-        padding: 50px 20px; /* تقليل البادنج */
+        padding: 100px 20px;
         height: 600px;
         background-size: cover;
         background-position: center;
-        margin-top: 0; /* إزالة المارجن العلوي */
     }
 
     .foundation-overlay {
@@ -132,7 +130,7 @@
     /* Origin Section */
     #origin-section {
         position: relative;
-        padding: 50px 20px; /* تقليل البادنج */
+        padding: 100px 20px;
         height: 600px;
         background-image: url('https://assets.onecompiler.app/42wttk5ev/434phag8s/5.jpg');
         background-size: cover;
