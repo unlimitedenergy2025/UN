@@ -320,9 +320,6 @@
     <p class="quote-author">– His Royal Highness Prince Hussein bin Abdullah II</p>
 
 <div class="foundation-content">
-
-        The Crown Prince Foundation, led by His Royal Highness Prince Hussein bin Abdullah II, plays a pivotal role in supporting Jordanian youth through initiatives that aim to empower them and provide the necessary skills and resources to contribute to a sustainable future for Jordan. 
-
     <p>
         Through its support of the "Unlimited Energy" initiative, the Foundation focuses on promoting renewable energy and sustainable practices, helping youth become active leaders in the transition to a greener future. The initiative provides youth with hands-on opportunities to engage in renewable energy projects and contribute to the achievement of sustainable development goals. His Royal Highness’s vision is to inspire youth to take part in the green energy sector and contribute to tackling climate change challenges.
     </p>
