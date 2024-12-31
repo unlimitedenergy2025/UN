@@ -120,7 +120,7 @@
         font-size: 0.8em;
         line-height: 1.8;
         margin-bottom: 20px;
-        max-width: 800px;
+        max-width: 700px;
         margin-left: auto;
         margin-right: auto;
         z-index: 2;
