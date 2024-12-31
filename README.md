@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -33,7 +32,7 @@
         color: white;
         text-decoration: none;
         padding: 10px 20px;
-        font-size: 0.8em; /* Reduced by 5 degrees */
+        font-size: 0.8em;
         text-align: center;
         display: inline-block;
         transition: background-color 0.3s;
@@ -55,8 +54,9 @@
         overflow: hidden;
         color: white;
         background-image: url('https://assets.onecompiler.app/42wttk5ev/434phag8s/UNLIMITED%20ENERGY.jpg');
-        background-size: cover;
-        background-position: center;
+        background-size: contain; /* تعديل هنا */
+        background-position: center; /* تعديل هنا */
+        background-repeat: no-repeat; /* تعديل هنا */
     }
 
     .header-overlay {
@@ -78,13 +78,13 @@
     }
 
     .header-content h1 {
-        font-size: 2.3em; /* Reduced by 5 degrees */
+        font-size: 2.3em;
         font-weight: bold;
         color: white;
     }
 
     .header-content p {
-        font-size: 1.0em; /* Reduced by 5 degrees */
+        font-size: 1.0em;
         color: white;
         margin-top: 10px;
     }
@@ -110,14 +110,14 @@
     }
 
     .foundation-section h2 {
-        font-size: 1.8em; /* Reduced by 5 degrees */
+        font-size: 1.8em;
         margin-bottom: 20px;
         z-index: 2;
         position: relative;
     }
 
     .foundation-section p {
-        font-size: 0.8em; /* Reduced by 5 degrees */
+        font-size: 0.8em;
         line-height: 1.8;
         margin-bottom: 20px;
         max-width: 800px;
@@ -150,7 +150,7 @@
     /* Gallery Section */
     .section-title {
         color: #326c9b;
-        font-size: 1.3em; /* Reduced by 5 degrees */
+        font-size: 1.3em;
         margin: 40px 0 20px 0;
         text-align: center;
         font-weight: bold;
@@ -208,7 +208,7 @@
     }
 
     .contact-title {
-        font-size: 1.3em; /* Reduced by 5 degrees */
+        font-size: 1.3em;
         color: #326c9b;
         margin-bottom: 20px;
     }
@@ -219,7 +219,7 @@
         padding: 15px 25px;
         border: none;
         border-radius: 5px;
-        font-size: 0.8em; /* Reduced by 5 degrees */
+        font-size: 0.8em;
         cursor: pointer;
         text-decoration: none;
     }
@@ -236,27 +236,27 @@
     /* Responsive Design */
     @media (max-width: 768px) {
         .header-content h1 {
-            font-size: 1.3em; /* Reduced by 5 degrees */
+            font-size: 1.3em;
         }
 
         .header-content p {
-            font-size: 0.7em; /* Reduced by 5 degrees */
+            font-size: 0.7em;
         }
 
         .foundation-section h2 {
-            font-size: 1.3em; /* Reduced by 5 degrees */
+            font-size: 1.3em;
         }
 
         .foundation-section p {
-            font-size: 0.7em; /* Reduced by 5 degrees */
+            font-size: 0.7em;
         }
 
         #origin-section h2 {
-            font-size: 1.3em; /* Reduced by 5 degrees */
+            font-size: 1.3em;
         }
 
         #origin-section p {
-            font-size: 0.7em; /* Reduced by 5 degrees */
+            font-size: 0.7em;
         }
 
         .swiper-container {
@@ -272,19 +272,19 @@
     /* For very small devices */
     @media (max-width: 480px) {
         .header-content h1 {
-            font-size: 1.0em; /* Reduced by 5 degrees */
+            font-size: 1.0em;
         }
 
         .header-content p {
-            font-size: 0.5em; /* Reduced by 5 degrees */
+            font-size: 0.5em;
         }
 
         .swiper-button-next, .swiper-button-prev {
-            font-size: 0.8em; /* Reduced by 5 degrees */
+            font-size: 0.8em;
         }
 
         .section-title {
-            font-size: 1.0em; /* Reduced by 5 degrees */
+            font-size: 1.0em;
         }
     }
 </style>
