@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -138,4 +137,8 @@
     // Close mobile menu when a link is clicked
     document.querySelectorAll('#mobile-menu a').forEach(link => {
         link.addEventListener('click', () => {
-            mobileMenu.classList.add('hidden
+            mobileMenu.classList.add('hidden');
+        });
+    });
+
+    // Language toggle functionality
