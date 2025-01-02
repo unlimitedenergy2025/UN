@@ -1,11 +1,11 @@
-html
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Unlimited Energy</title>
-<script src="https://cdn.tailwindcss.com"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unlimited Energy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body class="bg-gray-100 text-gray-800">
 
@@ -20,7 +20,7 @@ html
         <a href="#volunteer-plan" class="hover:bg-blue-700 p-2 rounded scroll-link">Volunteer Plan</a>
         <a href="#contact" class="hover:bg-blue-700 p-2 rounded scroll-link">Contact</a>
         <button id="language-toggle" class="hover:bg-blue-700 p-2 rounded flex items-center">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Jordan.svg/32px-Flag_of_Jordan.svg.png" alt="Jordan Flag" class="h-5 w-5 mr-2">
+            <img src="https://assets.onecompiler.app/42wttk5ev/434w35dzt/Flag_of_Jordan.svg.png" alt="Jordan Flag" class="h-5 w-5 mr-2">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/32px-Flag_of_the_United_States.svg.png" alt="USA Flag" class="h-5 w-5">
         </button>
     </div>
@@ -43,7 +43,7 @@ html
         <i class="fas fa-times"></i>
     </button>
     <button id="mobile-language-toggle" class="hover:bg-blue-700 p-2 rounded flex items-center">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Jordan.svg/32px-Flag_of_Jordan.svg.png" alt="Jordan Flag" class="h-5 w-5 mr-2">
+        <img src="https://assets.onecompiler.app/42wttk5ev/434w35dzt/Flag_of_Jordan.svg.png" alt="Jordan Flag" class="h-5 w-5 mr-2">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/32px-Flag_of_the_United_States.svg.png" alt="USA Flag" class="h-5 w-5">
     </button>
 </div>
@@ -124,3 +124,18 @@ html
 
 <script>
     const menuButton = document.getElementById('menu-button');
+    const closeMenuButton = document.getElementById('close-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuButton.addEventListener('click', () => {
+        mobileMenu.classList.remove('hidden');
+    });
+
+    closeMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+    });
+
+    // Close mobile menu when a link is clicked
+    document.querySelectorAll('#mobile-menu a').forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden
