@@ -1,409 +1,126 @@
+html
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Unlimited Energy</title>
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-<style>
-    body {
-        font-family: 'Arial', sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f4f4f4;
-        color: #333;
-    }
-
-    /* Top navigation bar */
-    nav {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        background-color: #326c9b;
-        color: white;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 15px;
-        z-index: 1000;
-    }
-
-    nav a {
-        color: white;
-        text-decoration: none;
-        padding: 10px 20px;
-        font-size: 0.8em;
-        text-align: center;
-        display: inline-block;
-        transition: background-color 0.3s;
-    }
-
-    nav a:hover {
-        background-color: #1e4d74;
-    }
-
-    .logo {
-        height: 40px;
-    }
-
-    /* Header Section */
-    header {
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        overflow: hidden;
-        color: white;
-        background-image: url('https://assets.onecompiler.app/42wttk5ev/434phag8s/UNLIMITED%20ENERGY.jpg');
-        background-size: contain; /* تعديل هنا */
-        background-position: center; /* تعديل هنا */
-        background-repeat: no-repeat; /* تعديل هنا */
-    }
-
-    .header-overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.5);
-    }
-
-    .header-content {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        z-index: 2;
-    }
-
-    .header-content h1 {
-        font-size: 2.3em;
-        font-weight: bold;
-        color: white;
-    }
-
-    .header-content p {
-        font-size: 1.0em;
-        color: white;
-        margin-top: 10px;
-    }
-
-    /* Foundation Section */
-    .foundation-section {
-        position: relative;
-        color: white;
-        padding: 100px 20px;
-        height: 600px;
-        background-size: cover;
-        background-position: center;
-    }
-
-    .foundation-overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.5);
-        z-index: 1;
-    }
-
-    .foundation-section h2 {
-        font-size: 1.8em;
-        margin-bottom: 20px;
-        z-index: 2;
-        position: relative;
-    }
-
-    .foundation-section p {
-        font-size: 0.8em;
-        line-height: 1.8;
-        margin-bottom: 20px;
-        max-width: 700px;
-        margin-left: auto;
-        margin-right: auto;
-        z-index: 2;
-        position: relative;
-    }
-
-    /* Origin Section */
-    #origin-section {
-        position: relative;
-        padding: 100px 20px;
-        height: 600px;
-        background-image: url('https://assets.onecompiler.app/42wttk5ev/434phag8s/5.jpg');
-        background-size: cover;
-        background-position: center;
-    }
-
-    .origin-overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.5);
-        z-index: 1;
-    }
-
-    /* Gallery Section */
-    .section-title {
-        color: #326c9b;
-        font-size: 1.3em;
-        margin: 40px 0 20px 0;
-        text-align: center;
-        font-weight: bold;
-    }
-
-    .swiper-container {
-        width: 90%;
-        max-width: 1200px;
-        margin: 0 auto 50px auto;
-        overflow: hidden;
-    }
-
-    .swiper-wrapper {
-        display: flex;
-    }
-
-    .swiper-slide {
-        width: 80%;
-        margin-right: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: #fff;
-        overflow: hidden;
-    }
-
-    .swiper-slide img {
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .swiper-button-next, .swiper-button-prev {
-        color: #326c9b;
-    }
-
-    .swiper-pagination-bullet-active {
-        background: #326c9b;
-    }
-
-    /* Footer Section */
-    footer {
-        background-color: #326c9b;
-        color: white;
-        padding: 15px;
-        text-align: center;
-    }
-
-    /* Contact Section */
-    #contact {
-        padding: 50px 20px;
-        background-color: #f4f4f4;
-        text-align: center;
-    }
-
-    .contact-title {
-        font-size: 1.3em;
-        color: #326c9b;
-        margin-bottom: 20px;
-    }
-
-    .contact-button {
-        background-color: #326c9b;
-        color: white;
-        padding: 15px 25px;
-        border: none;
-        border-radius: 5px;
-        font-size: 0.8em;
-        cursor: pointer;
-        text-decoration: none;
-    }
-
-    .contact-button:hover {
-        background-color: #1e4d74;
-    }
-
-    /* Smooth Scrolling */
-    html {
-        scroll-behavior: smooth;
-    }
-
-    /* Responsive Design */
-    @media (max-width: 768px) {
-        .header-content h1 {
-            font-size: 1.3em;
-        }
-
-        .header-content p {
-            font-size: 0.7em;
-        }
-
-        .foundation-section h2 {
-            font-size: 1.3em;
-        }
-
-        .foundation-section p {
-            font-size: 0.7em;
-        }
-
-        #origin-section h2 {
-            font-size: 1.3em;
-        }
-
-        #origin-section p {
-            font-size: 0.7em;
-        }
-
-        .swiper-container {
-            width: 100%;
-        }
-
-        .swiper-slide img {
-            width: 90%;
-            height: auto;
-        }
-    }
-
-    /* For very small devices */
-    @media (max-width: 480px) {
-        .header-content h1 {
-            font-size: 1.0em;
-        }
-
-        .header-content p {
-            font-size: 0.5em;
-        }
-
-        .swiper-button-next, .swiper-button-prev {
-            font-size: 0.8em;
-        }
-
-        .section-title {
-            font-size: 1.0em;
-        }
-    }
-</style>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
-<body>
+<body class="bg-gray-100 text-gray-800">
 
 <!-- Top Navigation Bar -->
-<nav>
-<img src="https://assets.onecompiler.app/42r523uca/42tzejh5t/profile-240701193019IU18T.png" alt="Unlimited Energy Logo" class="logo">
-<a href="#foundation-section">Foundation</a>
-<a href="#origin-section">The Origin</a>
-<a href="#youth-participation">Youth Participation</a>
-<a href="#green-energy">Why Green Energy?</a>
-<a href="#volunteer-plan">Volunteer Plan</a>
-<a href="#contact">Contact</a>
+<nav class="fixed top-0 left-0 w-full bg-blue-800 text-white flex justify-between items-center p-4 z-50">
+    <img src="https://assets.onecompiler.app/42r523uca/42tzejh5t/profile-240701193019IU18T.png" alt="Unlimited Energy Logo" class="h-10">
+    <div class="hidden md:flex space-x-4">
+        <a href="#foundation-section" class="hover:bg-blue-700 p-2 rounded scroll-link">Foundation</a>
+        <a href="#origin-section" class="hover:bg-blue-700 p-2 rounded scroll-link">The Origin</a>
+        <a href="#youth-participation" class="hover:bg-blue-700 p-2 rounded scroll-link">Youth Participation</a>
+        <a href="#green-energy" class="hover:bg-blue-700 p-2 rounded scroll-link">Why Green Energy?</a>
+        <a href="#volunteer-plan" class="hover:bg-blue-700 p-2 rounded scroll-link">Volunteer Plan</a>
+        <a href="#contact" class="hover:bg-blue-700 p-2 rounded scroll-link">Contact</a>
+        <button id="language-toggle" class="hover:bg-blue-700 p-2 rounded flex items-center">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Jordan.svg/32px-Flag_of_Jordan.svg.png" alt="Jordan Flag" class="h-5 w-5 mr-2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/32px-Flag_of_the_United_States.svg.png" alt="USA Flag" class="h-5 w-5">
+        </button>
+    </div>
+    <div class="md:hidden">
+        <button id="menu-button" class="text-white focus:outline-none">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
 </nav>
 
-<!-- Header Section with Background Image -->
-<header>
-<div class="header-overlay"></div>
-<div class="header-content">
-    <h1>Unlimited Energy Initiative</h1>
-    <p>Empowering Youth and Promoting Sustainability</p>
+<!-- Mobile Menu -->
+<div id="mobile-menu" class="fixed top-0 left-0 w-full h-full bg-blue-800 text-white flex flex-col items-center justify-center space-y-4 hidden z-40">
+    <a href="#foundation-section" class="hover:bg-blue-700 p-2 rounded scroll-link">Foundation</a>
+    <a href="#origin-section" class="hover:bg-blue-700 p-2 rounded scroll-link">The Origin</a>
+    <a href="#youth-participation" class="hover:bg-blue-700 p-2 rounded scroll-link">Youth Participation</a>
+    <a href="#green-energy" class="hover:bg-blue-700 p-2 rounded scroll-link">Why Green Energy?</a>
+    <a href="#volunteer-plan" class="hover:bg-blue-700 p-2 rounded scroll-link">Volunteer Plan</a>
+    <a href="#contact" class="hover:bg-blue-700 p-2 rounded scroll-link">Contact</a>
+    <button id="close-menu-button" class="text-white focus:outline-none">
+        <i class="fas fa-times"></i>
+    </button>
+    <button id="mobile-language-toggle" class="hover:bg-blue-700 p-2 rounded flex items-center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Jordan.svg/32px-Flag_of_Jordan.svg.png" alt="Jordan Flag" class="h-5 w-5 mr-2">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/32px-Flag_of_the_United_States.svg.png" alt="USA Flag" class="h-5 w-5">
+    </button>
 </div>
+
+<!-- Header Section with Background Image -->
+<header class="relative w-full h-screen bg-cover bg-center" style="background-image: url('https://assets.onecompiler.app/42wttk5ev/434phag8s/UNLIMITED%20ENERGY.jpg');">
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="absolute inset-0 flex flex-col justify-center items-center text-center text-white z-10">
+        <h1 class="text-4xl md:text-6xl font-bold" data-en="Unlimited Energy Initiative" data-ar="مبادرة طاقة بلا حدود">Unlimited Energy Initiative</h1>
+        <p class="mt-4 text-lg md:text-2xl" data-en="Empowering Youth and Promoting Sustainability" data-ar="تمكين الشباب وتعزيز الاستدامة">Empowering Youth and Promoting Sustainability</p>
+    </div>
 </header>
 
 <!-- Foundation Section with Background Image -->
-<section id="foundation-section" class="foundation-section" style="background-image: url('https://assets.onecompiler.app/42r523uca/434p59yys/1D1A5517-min-1-e1709019652743.jpg');">
-<div class="foundation-overlay"></div>
-<h2>Role of His Royal Highness Foundation</h2>
-<p>
-    "Youth are the backbone of the nation and the foundation of the future. It is essential to empower them and provide opportunities for them to lead change and shape Jordan’s future. At the Crown Prince Foundation, we are working towards achieving this goal by supporting initiatives that enhance their role in various fields."
-    <p class="quote-author">– His Royal Highness Prince Hussein bin Abdullah II</p>
-
-<div class="foundation-content">
-   <p>
-
-
-       
-    </p>
-    <p>
-        Through its support of the "Unlimited Energy" initiative, the Foundation focuses on promoting renewable energy and sustainable practices, helping youth become active leaders in the transition to a greener future. The initiative provides youth with hands-on opportunities to engage in renewable energy projects and contribute to the achievement of sustainable development goals. His Royal Highness’s vision is to inspire youth to take part in the green energy sector and contribute to tackling climate change challenges.
-    </p>
-<p>
-
-</p>
+<section id="foundation-section" class="relative py-20 bg-cover bg-center text-white" style="background-image: url('https://assets.onecompiler.app/42r523uca/434p59yys/1D1A5517-min-1-e1709019652743.jpg'); top: 10px;">
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="relative z-10 text-center max-w-3xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6" data-en="Role of His Royal Highness Foundation" data-ar="دور مؤسسة صاحب السمو الملكي">Role of His Royal Highness Foundation</h2>
+        <p class="text-lg md:text-xl mb-4" data-en='"Youth are the backbone of the nation and the foundation of the future. It is essential to empower them and provide opportunities for them to lead change and shape Jordan’s future. At the Crown Prince Foundation, we are working towards achieving this goal by supporting initiatives that enhance their role in various fields."' data-ar='"الشباب هم العمود الفقري للأمة وأساس المستقبل. من الضروري تمكينهم وتوفير الفرص لهم لقيادة التغيير وتشكيل مستقبل الأردن. في مؤسسة ولي العهد، نعمل على تحقيق هذا الهدف من خلال دعم المبادرات التي تعزز دورهم في مختلف المجالات."'>
+            "Youth are the backbone of the nation and the foundation of the future. It is essential to empower them and provide opportunities for them to lead change and shape Jordan’s future. At the Crown Prince Foundation, we are working towards achieving this goal by supporting initiatives that enhance their role in various fields."
+        </p>
+        <p class="italic mb-6" data-en="– His Royal Highness Prince Hussein bin Abdullah II" data-ar="– صاحب السمو الملكي الأمير حسين بن عبد الله الثاني">– His Royal Highness Prince Hussein bin Abdullah II</p>
+        <p class="text-lg md:text-xl" data-en="Through its support of the 'Unlimited Energy' initiative, the Foundation focuses on promoting renewable energy and sustainable practices, helping youth become active leaders in the transition to a greener future. The initiative provides youth with hands-on opportunities to engage in renewable energy projects and contribute to the achievement of sustainable development goals. His Royal Highness’s vision is to inspire youth to take part in the green energy sector and contribute to tackling climate change challenges." data-ar="من خلال دعمها لمبادرة 'طاقة بلا حدود'، تركز المؤسسة على تعزيز الطاقة المتجددة والممارسات المستدامة، مما يساعد الشباب على أن يصبحوا قادة نشطين في الانتقال إلى مستقبل أكثر خضرة. توفر المبادرة للشباب فرصًا عملية للمشاركة في مشاريع الطاقة المتجددة والمساهمة في تحقيق أهداف التنمية المستدامة. رؤية صاحب السمو الملكي هي إلهام الشباب للمشاركة في قطاع الطاقة الخضراء والمساهمة في مواجهة تحديات تغير المناخ.">
+            Through its support of the "Unlimited Energy" initiative, the Foundation focuses on promoting renewable energy and sustainable practices, helping youth become active leaders in the transition to a greener future. The initiative provides youth with hands-on opportunities to engage in renewable energy projects and contribute to the achievement of sustainable development goals. His Royal Highness’s vision is to inspire youth to take part in the green energy sector and contribute to tackling climate change challenges.
+        </p>
+    </div>
+</section>
 
 <!-- Origin Section -->
-<section id="origin-section" class="foundation-section">
-<div class="origin-overlay"></div>
-<h2>Origin of the Initiative (Unlimited Energy)</h2>
-<p>
-    The "Unlimited Energy" initiative was established in response to the urgent need to raise awareness about the importance of sustainable energy in addressing global environmental challenges. As climate change accelerates, innovative solutions are essential to overcome traditional energy issues. The initiative aims to achieve social and environmental sustainability by empowering youth and enhancing their active participation in this vital field, recognizing that young people are the driving force for change in communities.
-</p>
+<section id="origin-section" class="relative py-20 bg-cover bg-center text-white" style="background-image: url('https://assets.onecompiler.app/42wttk5ev/434phag8s/5.jpg'); top: 10px;">
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="relative z-10 text-center max-w-3xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6" data-en="Origin of the Initiative (Unlimited Energy)" data-ar="أصل المبادرة (طاقة بلا حدود)">Origin of the Initiative (Unlimited Energy)</h2>
+        <p class="text-lg md:text-xl" data-en="The 'Unlimited Energy' initiative was established in response to the urgent need to raise awareness about the importance of sustainable energy in addressing global environmental challenges. As climate change accelerates, innovative solutions are essential to overcome traditional energy issues. The initiative aims to achieve social and environmental sustainability by empowering youth and enhancing their active participation in this vital field, recognizing that young people are the driving force for change in communities." data-ar="تم إنشاء مبادرة 'طاقة بلا حدود' استجابةً للحاجة الملحة لزيادة الوعي بأهمية الطاقة المستدامة في معالجة التحديات البيئية العالمية. مع تسارع تغير المناخ، تعتبر الحلول المبتكرة ضرورية للتغلب على مشاكل الطاقة التقليدية. تهدف المبادرة إلى تحقيق الاستدامة الاجتماعية والبيئية من خلال تمكين الشباب وتعزيز مشاركتهم الفعالة في هذا المجال الحيوي، مع الاعتراف بأن الشباب هم القوة الدافعة للتغيير في المجتمعات.">
+            The "Unlimited Energy" initiative was established in response to the urgent need to raise awareness about the importance of sustainable energy in addressing global environmental challenges. As climate change accelerates, innovative solutions are essential to overcome traditional energy issues. The initiative aims to achieve social and environmental sustainability by empowering youth and enhancing their active participation in this vital field, recognizing that young people are the driving force for change in communities.
+        </p>
+    </div>
 </section>
 
 <!-- Youth Participation Section with Background Image -->
-<section id="youth-participation" class="foundation-section" style="background-image: url('https://assets.onecompiler.app/42r523uca/434p59yys/4.jpg');">
-<div class="foundation-overlay"></div>
-<h2>The Role of Volunteering and Youth Participation</h2>
-<p>
-    This initiative places a strong emphasis on engaging youth in renewable energy projects, recognizing that young people are critical to driving change. It aims to enhance their understanding of environmental issues and provide opportunities for skill development in the green energy sector. By involving them in hands-on projects, workshops, and community outreach programs, the initiative fosters leadership qualities, innovative thinking, and a deep sense of responsibility towards sustainability.
-</p>
-<p>
-    Through volunteering, youth gain practical experience in the renewable energy field, empowering them to become change-makers in their communities. The initiative equips them with the tools to advocate for clean energy solutions, while also encouraging them to take on leadership roles in addressing climate change. By supporting youth in their efforts to transition to a greener future, the initiative helps cultivate a generation of environmentally conscious individuals dedicated to building a sustainable world.
-</p>
+<section id="youth-participation" class="relative py-20 bg-cover bg-center text-white" style="background-image: url('https://assets.onecompiler.app/42r523uca/434p59yys/4.jpg'); top: 10px;">
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="relative z-10 text-center max-w-3xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6" data-en="The Role of Volunteering and Youth Participation" data-ar="دور التطوع ومشاركة الشباب">The Role of Volunteering and Youth Participation</h2>
+        <p class="text-lg md:text-xl mb-4" data-en="This initiative places a strong emphasis on engaging youth in renewable energy projects, recognizing that young people are critical to driving change. It aims to enhance their understanding of environmental issues and provide opportunities for skill development in the green energy sector. By involving them in hands-on projects, workshops, and community outreach programs, the initiative fosters leadership qualities, innovative thinking, and a deep sense of responsibility towards sustainability." data-ar="تركز هذه المبادرة بشكل كبير على إشراك الشباب في مشاريع الطاقة المتجددة، مع الاعتراف بأن الشباب هم العامل الحاسم في دفع التغيير. تهدف إلى تعزيز فهمهم للقضايا البيئية وتوفير فرص لتطوير المهارات في قطاع الطاقة الخضراء. من خلال إشراكهم في مشاريع عملية وورش عمل وبرامج توعية مجتمعية، تعزز المبادرة صفات القيادة والتفكير الابتكاري والشعور العميق بالمسؤولية تجاه الاستدامة.">
+            This initiative places a strong emphasis on engaging youth in renewable energy projects, recognizing that young people are critical to driving change. It aims to enhance their understanding of environmental issues and provide opportunities for skill development in the green energy sector. By involving them in hands-on projects, workshops, and community outreach programs, the initiative fosters leadership qualities, innovative thinking, and a deep sense of responsibility towards sustainability.
+        </p>
+        <p class="text-lg md:text-xl" data-en="Through volunteering, youth gain practical experience in the renewable energy field, empowering them to become change-makers in their communities. The initiative equips them with the tools to advocate for clean energy solutions, while also encouraging them to take on leadership roles in addressing climate change. By supporting youth in their efforts to transition to a greener future, the initiative helps cultivate a generation of environmentally conscious individuals dedicated to building a sustainable world." data-ar="من خلال التطوع، يكتسب الشباب خبرة عملية في مجال الطاقة المتجددة، مما يمكنهم من أن يصبحوا صناع تغيير في مجتمعاتهم. تزودهم المبادرة بالأدوات اللازمة للدفاع عن حلول الطاقة النظيفة، بينما تشجعهم أيضًا على تولي أدوار قيادية في معالجة تغير المناخ. من خلال دعم الشباب في جهودهم للانتقال إلى مستقبل أكثر خضرة، تساعد المبادرة في تنمية جيل من الأفراد الواعيين بيئيًا المكرسين لبناء عالم مستدام.">
+            Through volunteering, youth gain practical experience in the renewable energy field, empowering them to become change-makers in their communities. The initiative equips them with the tools to advocate for clean energy solutions, while also encouraging them to take on leadership roles in addressing climate change. By supporting youth in their efforts to transition to a greener future, the initiative helps cultivate a generation of environmentally conscious individuals dedicated to building a sustainable world.
+        </p>
+    </div>
 </section>
 
 <!-- Green Energy Section with Background Image -->
-<section id="green-energy" class="foundation-section" style="background-image: url('https://assets.onecompiler.app/42r523uca/434p59yys/2.jpg');">
-<div class="foundation-overlay"></div>
-<h2>Why Green Energy?</h2>
-<p>
-    Green energy is crucial for environmental sustainability and economic growth. This initiative encourages youth to actively participate in the global shift to cleaner, renewable energy solutions. By promoting renewable energy sources like solar, wind, and hydropower, it aims to reduce reliance on fossil fuels and combat climate change.
-</p>
-<p>
-    Through workshops, projects, and campaigns, the initiative empowers young people to lead the way in creating a greener future. It provides them with the skills and knowledge necessary to contribute to a sustainable world and helps foster innovation in the green energy sector.
-</p>
+<section id="green-energy" class="relative py-20 bg-cover bg-center text-white" style="background-image: url('https://assets.onecompiler.app/42r523uca/434p59yys/2.jpg'); top: 10px;">
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="relative z-10 text-center max-w-3xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6" data-en="Why Green Energy?" data-ar="لماذا الطاقة الخضراء؟">Why Green Energy?</h2>
+        <p class="text-lg md:text-xl mb-4" data-en="Green energy is crucial for environmental sustainability and economic growth. This initiative encourages youth to actively participate in the global shift to cleaner, renewable energy solutions. By promoting renewable energy sources like solar, wind, and hydropower, it aims to reduce reliance on fossil fuels and combat climate change." data-ar="الطاقة الخضراء ضرورية للاستدامة البيئية والنمو الاقتصادي. تشجع هذه المبادرة الشباب على المشاركة الفعالة في التحول العالمي نحو حلول الطاقة المتجددة الأنظف. من خلال الترويج لمصادر الطاقة المتجددة مثل الطاقة الشمسية والرياح والطاقة المائية، تهدف إلى تقليل الاعتماد على الوقود الأحفوري ومكافحة تغير المناخ.">
+            Green energy is crucial for environmental sustainability and economic growth. This initiative encourages youth to actively participate in the global shift to cleaner, renewable energy solutions. By promoting renewable energy sources like solar, wind, and hydropower, it aims to reduce reliance on fossil fuels and combat climate change.
+        </p>
+        <p class="text-lg md:text-xl" data-en="Through workshops, projects, and campaigns, the initiative empowers young people to lead the way in creating a greener future. It provides them with the skills and knowledge necessary to contribute to a sustainable world and helps foster innovation in the green energy sector." data-ar="من خلال ورش العمل والمشاريع والحملات، تمكّن المبادرة الشباب من قيادة الطريق نحو مستقبل أكثر خضرة. تزودهم بالمهارات والمعرفة اللازمة للمساهمة في عالم مستدام وتساعد في تعزيز الابتكار في قطاع الطاقة الخضراء.">
+            Through workshops, projects, and campaigns, the initiative empowers young people to lead the way in creating a greener future. It provides them with the skills and knowledge necessary to contribute to a sustainable world and helps foster innovation in the green energy sector.
+        </p>
+    </div>
 </section>
 
 <!-- Contact Section -->
-<section id="contact">
-<h2 class="contact-title">Contact Us</h2>
-<a href="mailto:energyunlimitedfh@gmail.com" class="contact-button">Send Email</a>
+<section id="contact" class="py-20 bg-gray-100 text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-blue-800 mb-6" data-en="Contact Us" data-ar="اتصل بنا">Contact Us</h2>
+    <a href="mailto:energyunlimitedfh@gmail.com" class="bg-blue-800 text-white py-3 px-6 rounded hover:bg-blue-700 transition duration-300" data-en="Send Email" data-ar="إرسال بريد إلكتروني">Send Email</a>
 </section>
 
 <!-- Footer Section -->
-<footer>
-<p>All rights reserved © 2024 - Unlimited Energy Initiative</p>
+<footer class="bg-blue-800 text-white py-4 text-center">
+    <p data-en="All rights reserved © 2024 - Unlimited Energy Initiative" data-ar="جميع الحقوق محفوظة © 2024 - مبادرة طاقة بلا حدود">All rights reserved © 2024 - Unlimited Energy Initiative</p>
 </footer>
 
-<!-- Swiper JS -->
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
-const swiper = new Swiper('.swiper-container', {
-    slidesPerView: 'auto',
-    spaceBetween: 20,
-    loop: true,
-    centeredSlides: true,
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
-    breakpoints: {
-        640: {
-            slidesPerView: 1.5,
-            spaceBetween: 10,
-        },
-        1024: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-        },
-    },
-});
-</script>
-
-</body>
-</html>
+    const menuButton = document.getElementById('menu-button');
