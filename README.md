@@ -1,4 +1,4 @@
-[<html lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,13 @@
 <nav class="fixed top-0 left-0 w-full bg-blue-800 text-white flex justify-between items-center p-4 z-50">
     <img src="https://assets.onecompiler.app/42r523uca/42tzejh5t/profile-240701193019IU18T.png" alt="Unlimited Energy Logo" class="h-10">
     <div class="hidden md:flex space-x-4">
-        <a href="#foundation-section" class="hover:bg-blue-700 p-2 rounded scroll-link">Foundation</a>
+        <div class="relative group">
+            <a href="#foundation-section" class="hover:bg-blue-700 p-2 rounded scroll-link">Foundation</a>
+            <div class="absolute hidden group-hover:block bg-blue-800 text-white mt-2 rounded shadow-lg">
+                <a href="#foundation-section" class="block px-4 py-2 hover:bg-blue-700">Foundation Overview</a>
+                <a href="#foundation-activities" class="block px-4 py-2 hover:bg-blue-700">Activities</a>
+            </div>
+        </div>
         <a href="#origin-section" class="hover:bg-blue-700 p-2 rounded scroll-link">The Origin</a>
         <a href="#youth-participation" class="hover:bg-blue-700 p-2 rounded scroll-link">Youth Participation</a>
         <a href="#green-energy" class="hover:bg-blue-700 p-2 rounded scroll-link">Why Green Energy?</a>
@@ -48,7 +54,8 @@
 </div>
 
 <!-- Header Section with Background Image -->
-<header class="relative w-full h-screen bg-cover bg-center" style="background-image: url('https://assets.onecompiler.app/42wttk5ev/434phag8s/UNLIMITED%20ENERGY.jpg');">
+<header class="relative w-full h-screen bg-cover bg-center">
+    <img src="https://assets.onecompiler.app/42wttk5ev/434phag8s/UNLIMITED%20ENERGY.jpg" alt="Background image of renewable energy sources" class="absolute inset-0 w-full h-full object-cover">
     <div class="absolute inset-0 bg-black opacity-50"></div>
     <div class="absolute inset-0 flex flex-col justify-center items-center text-center text-white z-10">
         <h1 class="text-4xl md:text-6xl font-bold" data-en="Unlimited Energy Initiative" data-ar="مبادرة طاقة بلا حدود">Unlimited Energy Initiative</h1>
@@ -57,7 +64,8 @@
 </header>
 
 <!-- Foundation Section with Background Image -->
-<section id="foundation-section" class="relative py-20 bg-cover bg-center text-white" style="background-image: url('https://assets.onecompiler.app/42r523uca/434p59yys/1D1A5517-min-1-e1709019652743.jpg'); top: 10px;">
+<section id="foundation-section" class="relative py-20 bg-cover bg-center text-white">
+    <img src="https://assets.onecompiler.app/42r523uca/434p59yys/1D1A5517-min-1-e1709019652743.jpg" alt="Background image of a foundation event" class="absolute inset-0 w-full h-full object-cover">
     <div class="absolute inset-0 bg-black opacity-50"></div>
     <div class="relative z-10 text-center max-w-3xl mx-auto">
         <h2 class="text-3xl md:text-4xl font-bold mb-6" data-en="Role of His Royal Highness Foundation" data-ar="دور مؤسسة صاحب السمو الملكي">Role of His Royal Highness Foundation</h2>
@@ -72,7 +80,8 @@
 </section>
 
 <!-- Origin Section -->
-<section id="origin-section" class="relative py-20 bg-cover bg-center text-white" style="background-image: url('https://assets.onecompiler.app/42wttk5ev/434phag8s/5.jpg'); top: 10px;">
+<section id="origin-section" class="relative py-20 bg-cover bg-center text-white">
+    <img src="https://assets.onecompiler.app/42wttk5ev/434phag8s/5.jpg" alt="Background image of the origin of the initiative" class="absolute inset-0 w-full h-full object-cover">
     <div class="absolute inset-0 bg-black opacity-50"></div>
     <div class="relative z-10 text-center max-w-3xl mx-auto">
         <h2 class="text-3xl md:text-4xl font-bold mb-6" data-en="Origin of the Initiative (Unlimited Energy)" data-ar="أصل المبادرة (طاقة بلا حدود)">Origin of the Initiative (Unlimited Energy)</h2>
@@ -83,7 +92,8 @@
 </section>
 
 <!-- Youth Participation Section with Background Image -->
-<section id="youth-participation" class="relative py-20 bg-cover bg-center text-white" style="background-image: url('https://assets.onecompiler.app/42r523uca/434p59yys/4.jpg'); top: 10px;">
+<section id="youth-participation" class="relative py-20 bg-cover bg-center text-white">
+    <img src="https://assets.onecompiler.app/42r523uca/434p59yys/4.jpg" alt="Background image of youth participation in renewable energy projects" class="absolute inset-0 w-full h-full object-cover">
     <div class="absolute inset-0 bg-black opacity-50"></div>
     <div class="relative z-10 text-center max-w-3xl mx-auto">
         <h2 class="text-3xl md:text-4xl font-bold mb-6" data-en="The Role of Volunteering and Youth Participation" data-ar="دور التطوع ومشاركة الشباب">The Role of Volunteering and Youth Participation</h2>
@@ -97,7 +107,8 @@
 </section>
 
 <!-- Green Energy Section with Background Image -->
-<section id="green-energy" class="relative py-20 bg-cover bg-center text-white" style="background-image: url('https://assets.onecompiler.app/42r523uca/434p59yys/2.jpg'); top: 10px;">
+<section id="green-energy" class="relative py-20 bg-cover bg-center text-white">
+    <img src="https://assets.onecompiler.app/42r523uca/434p59yys/2.jpg" alt="Background image of green energy sources" class="absolute inset-0 w-full h-full object-cover">
     <div class="absolute inset-0 bg-black opacity-50"></div>
     <div class="relative z-10 text-center max-w-3xl mx-auto">
         <h2 class="text-3xl md:text-4xl font-bold mb-6" data-en="Why Green Energy?" data-ar="لماذا الطاقة الخضراء؟">Why Green Energy?</h2>
@@ -136,10 +147,3 @@
 
     // Close mobile menu when a link is clicked
     document.querySelectorAll('#mobile-menu a').forEach(link => {
-        link.addEventListener('click', () => {
-            mobileMenu.classList.add('hidden');
-        });
-    });
-
-    // Language toggle functionality
-](https://unlimited.energy.com/)
