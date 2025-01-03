@@ -5,49 +5,54 @@
     <title>Unlimited Energy</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            color:#000000;
+        }
+    </style>
 </head>
-<body class="bg-gray-100 text-gray-800">
+<body class="bg-black text-gray-200">
 
 <!-- Top Navigation Bar -->
-<nav class="fixed top-0 left-0 w-full bg-blue-800 text-white flex justify-between items-center p-4 z-50">
+<nav class="fixed top-0 left-0 w-full bg-white text-black flex justify-between items-center p-4 z-50">
     <img src="https://assets.onecompiler.app/42r523uca/42tzejh5t/profile-240701193019IU18T.png" alt="Unlimited Energy Logo" class="h-10">
     <div class="hidden md:flex space-x-4">
         <div class="relative group">
-            <a href="#foundation-section" class="hover:bg-blue-700 p-2 rounded scroll-link">Foundation</a>
-            <div class="absolute hidden group-hover:block bg-blue-800 text-white mt-2 rounded shadow-lg">
-                <a href="#foundation-section" class="block px-4 py-2 hover:bg-blue-700">Foundation Overview</a>
-                <a href="#foundation-activities" class="block px-4 py-2 hover:bg-blue-700">Activities</a>
+            <a href="#foundation-section" class="hover:bg-gray-200 p-2 rounded scroll-link">Foundation</a>
+            <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
+                <a href="#foundation-section" class="block px-4 py-2 hover:bg-gray-200">Foundation Overview</a>
+                <a href="#foundation-activities" class="block px-4 py-2 hover:bg-gray-200">Activities</a>
             </div>
         </div>
-        <a href="#origin-section" class="hover:bg-blue-700 p-2 rounded scroll-link">The Origin</a>
-        <a href="#youth-participation" class="hover:bg-blue-700 p-2 rounded scroll-link">Youth Participation</a>
-        <a href="#green-energy" class="hover:bg-blue-700 p-2 rounded scroll-link">Why Green Energy?</a>
-        <a href="#volunteer-plan" class="hover:bg-blue-700 p-2 rounded scroll-link">Volunteer Plan</a>
-        <a href="#contact" class="hover:bg-blue-700 p-2 rounded scroll-link">Contact</a>
-        <button id="language-toggle" class="hover:bg-blue-700 p-2 rounded flex items-center">
+        <a href="#origin-section" class="hover:bg-gray-200 p-2 rounded scroll-link">The Origin</a>
+        <a href="#youth-participation" class="hover:bg-gray-200 p-2 rounded scroll-link">Youth Participation</a>
+        <a href="#green-energy" class="hover:bg-gray-200 p-2 rounded scroll-link">Why Green Energy?</a>
+        <a href="#volunteer-plan" class="hover:bg-gray-200 p-2 rounded scroll-link">Volunteer Plan</a>
+        <a href="#contact" class="hover:bg-gray-200 p-2 rounded scroll-link">Contact</a>
+        <button id="language-toggle" class="hover:bg-gray-200 p-2 rounded flex items-center">
             <img src="https://assets.onecompiler.app/42wttk5ev/434w35dzt/Flag_of_Jordan.svg.png" alt="Jordan Flag" class="h-5 w-5 mr-2">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/32px-Flag_of_the_United_States.svg.png" alt="USA Flag" class="h-5 w-5">
         </button>
     </div>
     <div class="md:hidden">
-        <button id="menu-button" class="text-white focus:outline-none">
+        <button id="menu-button" class="text-black focus:outline-none">
             <i class="fas fa-bars"></i>
         </button>
     </div>
 </nav>
 
 <!-- Mobile Menu -->
-<div id="mobile-menu" class="fixed top-0 left-0 w-full h-full bg-blue-800 text-white flex flex-col items-center justify-center space-y-4 hidden z-40">
-    <a href="#foundation-section" class="hover:bg-blue-700 p-2 rounded scroll-link">Foundation</a>
-    <a href="#origin-section" class="hover:bg-blue-700 p-2 rounded scroll-link">The Origin</a>
-    <a href="#youth-participation" class="hover:bg-blue-700 p-2 rounded scroll-link">Youth Participation</a>
-    <a href="#green-energy" class="hover:bg-blue-700 p-2 rounded scroll-link">Why Green Energy?</a>
-    <a href="#volunteer-plan" class="hover:bg-blue-700 p-2 rounded scroll-link">Volunteer Plan</a>
-    <a href="#contact" class="hover:bg-blue-700 p-2 rounded scroll-link">Contact</a>
-    <button id="close-menu-button" class="text-white focus:outline-none">
+<div id="mobile-menu" class="fixed top-0 left-0 w-full h-full bg-white text-black flex flex-col items-center justify-center space-y-4 hidden z-40">
+    <a href="#foundation-section" class="hover:bg-gray-200 p-2 rounded scroll-link">Foundation</a>
+    <a href="#origin-section" class="hover:bg-gray-200 p-2 rounded scroll-link">The Origin</a>
+    <a href="#youth-participation" class="hover:bg-gray-200 p-2 rounded scroll-link">Youth Participation</a>
+    <a href="#green-energy" class="hover:bg-gray-200 p-2 rounded scroll-link">Why Green Energy?</a>
+    <a href="#volunteer-plan" class="hover:bg-gray-200 p-2 rounded scroll-link">Volunteer Plan</a>
+    <a href="#contact" class="hover:bg-gray-200 p-2 rounded scroll-link">Contact</a>
+    <button id="close-menu-button" class="text-black focus:outline-none">
         <i class="fas fa-times"></i>
     </button>
-    <button id="mobile-language-toggle" class="hover:bg-blue-700 p-2 rounded flex items-center">
+    <button id="mobile-language-toggle" class="hover:bg-gray-200 p-2 rounded flex items-center">
         <img src="https://assets.onecompiler.app/42wttk5ev/434w35dzt/Flag_of_Jordan.svg.png" alt="Jordan Flag" class="h-5 w-5 mr-2">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/32px-Flag_of_the_United_States.svg.png" alt="USA Flag" class="h-5 w-5">
     </button>
@@ -122,7 +127,7 @@
 </section>
 
 <!-- Contact Section -->
-<section id="contact" class="py-20 bg-gray-100 text-center">
+<section id="contact" class="py-20 bg-white text-center">
     <h2 class="text-3xl md:text-4xl font-bold text-blue-800 mb-6" data-en="Contact Us" data-ar="اتصل بنا">Contact Us</h2>
     <a href="mailto:energyunlimitedfh@gmail.com" class="bg-blue-800 text-white py-3 px-6 rounded hover:bg-blue-700 transition duration-300" data-en="Send Email" data-ar="إرسال بريد إلكتروني">Send Email</a>
 </section>
@@ -146,4 +151,4 @@
     });
 
     // Close mobile menu when a link is clicked
-    document.querySelectorAll('#mobile-menu a').forEach(link => {
+    document.querySelector
