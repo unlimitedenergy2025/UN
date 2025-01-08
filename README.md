@@ -149,6 +149,47 @@
     closeMenuButton.addEventListener('click', () => {
         mobileMenu.classList.add('hidden');
     });
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-blue-500 text-white p-4">
+        <h1 class="text-2xl">Admin Dashboard</h1>
+    </nav>
+    <div class="container mx-auto p-4">
+        <h2 class="text-xl font-bold mb-4">Manage Posts</h2>
+        <form id="postForm" class="mb-4">
+            <input type="text" id="postTitle" placeholder="Enter post title" class="w-full px-3 py-2 border rounded mb-2">
+            <textarea id="postContent" placeholder="Enter post content" class="w-full px-3 py-2 border rounded mb-2"></textarea>
+            <button type="button" id="addPost" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Add Post</button>
+        </form>
+        <ul id="postsList" class="space-y-4"></ul>
+    </div>
+    <script>
+        document.getElementById('addPost').addEventListener('click', function () {
+            const title = document.getElementById('postTitle').value;
+            const content = document.getElementById('postContent').value;
 
+            if (title && content) {
+                const post = document.createElement('li');
+                post.innerHTML = `<h3 class="text-lg font-bold">${title}</h3><p>${content}</p>`;
+                post.classList.add('bg-white', 'shadow', 'p-4', 'rounded');
+                document.getElementById('postsList').appendChild(post);
+
+                // Clear form
+                document.getElementById('postTitle').value = '';
+                document.getElementById('postContent').value = '';
+            } else {
+                alert('Please fill in both fields!');
+            }
+        });
+    </script>
+</body>
+</html>
     // Close mobile menu when a link is clicked
     document.querySelector
