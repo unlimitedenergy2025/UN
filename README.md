@@ -972,7 +972,7 @@
             
             <div class="team-member">
                 <div class="member-image">
-                    <img src="<a href="https://imgbb.com/"><img src="https://i.ibb.co/1Yx5rVj2/IMG-20250624-WA0023.png" alt="IMG-20250624-WA0023" border="0"></a>" alt="سليمان">
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/1Yx5rVj2/IMG-20250624-WA0023.png" alt="IMG-20250624-WA0023" border="0"></a>" alt="سليمان">
                 </div>
                 <div class="member-info">
                     <h3>سليمان</h3>
