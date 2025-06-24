@@ -936,7 +936,7 @@
         <div class="team-grid">
             <div class="team-member">
                 <div class="member-image">
-                    <img src="https://via.placeholder.com/300x300?text=Farhan" alt="فرحان">
+                    <img src="https://ibb.co/B2x40jjJ" alt="فرحان">
                 </div>
                 <div class="member-info">
                     <h3>فرحان</h3>
@@ -948,7 +948,7 @@
             
             <div class="team-member">
                 <div class="member-image">
-                    <img src="https://via.placeholder.com/300x300?text=Hossam" alt="حسام">
+                    <img src="https://ibb.co/V1Nz9Dh" alt="حسام">
                 </div>
                 <div class="member-info">
                     <h3>حسام</h3>
@@ -960,7 +960,7 @@
             
             <div class="team-member">
                 <div class="member-image">
-                    <img src="https://via.placeholder.com/300x300?text=Rand" alt="رند">
+                    <img src="https://ibb.co/dz4YsFX" alt="رند">
                 </div>
                 <div class="member-info">
                     <h3>رند</h3>
@@ -972,7 +972,7 @@
             
             <div class="team-member">
                 <div class="member-image">
-                    <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="سليمان">
+                    <img src="https://ibb.co/RGWm3ndH" alt="سليمان">
                 </div>
                 <div class="member-info">
                     <h3>سليمان</h3>
@@ -984,7 +984,7 @@
             
             <div class="team-member">
                 <div class="member-image">
-                    <img src="https://via.placeholder.com/300x300?text=Mahmood" alt="محمود">
+                    <img src="https://ibb.co/0VXPbRhW" alt="محمود">
                 </div>
                 <div class="member-info">
                     <h3>محمود</h3>
@@ -996,7 +996,7 @@
             
             <div class="team-member">
                 <div class="member-image">
-                    <img src="https://via.placeholder.com/300x300?text=Majed" alt="ماجد">
+                    <img src="https://ibb.co/CNt5JV6" alt="ماجد">
                 </div>
                 <div class="member-info">
                     <h3>ماجد</h3>
@@ -1008,7 +1008,7 @@
             
             <div class="team-member">
                 <div class="member-image">
-                    <img src="https://via.placeholder.com/300x300?text=Hala" alt="حلا">
+                    <img src="https://ibb.co/Hf18SfyY" alt="حلا">
                 </div>
                 <div class="member-info">
                     <h3>حلا</h3>
