@@ -923,137 +923,138 @@
     </section>
     
     <!-- Team Section -->
-    <section class="section" id="team">
-        <div class="container">
-            <div class="section-title">
-                <h2 class="ar-text">👨‍👩‍👧‍👦 فريق العمل</h2>
-                <h2 class="en-text" style="display: none;">👨‍👩‍👧‍👦 Our Team</h2>
+<section class="section" id="team">
+    <div class="container">
+        <div class="section-title">
+            <h2 class="ar-text">👨‍👩‍👧‍👦 فريق العمل</h2>
+            <h2 class="en-text" style="display: none;">👨‍👩‍👧‍👦 Our Team</h2>
+        </div>
+        
+        <p class="ar-text" style="text-align: center; margin-bottom: 30px;">قادة المبادرة الذين يقودون التغيير</p>
+        <p class="en-text" style="text-align: center; margin-bottom: 30px; display: none;">The initiative leaders who are driving change</p>
+        
+        <div class="team-grid">
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="https://via.placeholder.com/300x300?text=Farhan" alt="فرحان">
+                </div>
+                <div class="member-info">
+                    <h3>فرحان</h3>
+                    <h3 style="display: none;">Farhan</h3>
+                    <p class="ar-text">المؤسس المشارك</p>
+                    <p class="en-text" style="display: none;">Co-Founder</p>
+                </div>
             </div>
             
-            <p class="ar-text" style="text-align: center; margin-bottom: 30px;">قادة المبادرة الذين يقودون التغيير</p>
-            <p class="en-text" style="text-align: center; margin-bottom: 30px; display: none;">The initiative leaders who are driving change</p>
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="https://via.placeholder.com/300x300?text=Hossam" alt="حسام">
+                </div>
+                <div class="member-info">
+                    <h3>حسام</h3>
+                    <h3 style="display: none;">Hossam</h3>
+                    <p class="ar-text">المؤسس المشارك</p>
+                    <p class="en-text" style="display: none;">Co-Founder</p>
+                </div>
+            </div>
             
-            <div class="team-grid">
-                <div class="team-member">
-                    <div class="member-image">
-                        <img src="https://via.placeholder.com/300x300?text=Farhan" alt="فرحان">
-                    </div>
-                    <div class="member-info">
-                        <h3>فرحان</h3>
-                        <h3 style="display: none;">Farhan</h3>
-                        <p class="ar-text">المؤسس المشارك</p>
-                        <p class="en-text" style="display: none;">Co-Founder</p>
-                    </div>
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="https://via.placeholder.com/300x300?text=Rand" alt="رند">
                 </div>
-                
-                <div class="team-member">
-                    <div class="member-image">
-                        <img src="https://via.placeholder.com/300x300?text=Hossam" alt="حسام">
-                    </div>
-                    <div class="member-info">
-                        <h3>حسام</h3>
-                        <h3 style="display: none;">Hossam</h3>
-                        <p class="ar-text">المؤسس المشارك</p>
-                        <p class="en-text" style="display: none;">Co-Founder</p>
-                    </div>
+                <div class="member-info">
+                    <h3>رند</h3>
+                    <h3 style="display: none;">Rand</h3>
+                    <p class="ar-text">عضو الفريق</p>
+                    <p class="en-text" style="display: none;">Team Member</p>
                 </div>
-                
-                <div class="team-member">
-                    <div class="member-image">
-                        <img src="https://via.placeholder.com/300x300?text=Rand" alt="رند">
-                    </div>
-                    <div class="member-info">
-                        <h3>رند</h3>
-                        <h3 style="display: none;">Rand</h3>
-                        <p class="ar-text">عضو الفريق</p>
-                        <p class="en-text" style="display: none;">Team Member</p>
-                    </div>
+            </div>
+            
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="سليمان">
                 </div>
-                
-                <div class="team-member">
-                    <div class="member-image">
-                        <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="سليمان">
-                    </div>
-                    <div class="member-info">
-                        <h3>سليمان</h3>
-                        <h3 style="display: none;">Sulaiman</h3>
-                        <p class="ar-text">عضو الفريق</p>
-                        <p class="en-text" style="display: none;">Team Member</p>
-                    </div>
-                     </div>
-                
-                <div class="team-member">
-                    <div class="member-image">
-                        <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="سليمان">
-                    </div>
-                    <div class="member-info">
-                        <h3>محمود </h3>
-                        <h3 style="display: none;">Mahmood</h3>
-                        <p class="ar-text">عضو الفريق</p>
-                        <p class="en-text" style="display: none;">Team Member</p>
-                    </div>
-                     </div>
-                
-                <div class="team-member">
-                    <div class="member-image">
-                        <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="ماجد">
-                    </div>
-                    <div class="member-info">
-                        <h3>ماجد</h3>
-                        <h3 style="display: none;">Majed</h3>
-                        <p class="ar-text">عضو الفريق</p>
-                        <p class="en-text" style="display: none;">Team Member</p>
-                    </div>
-                     </div>
-                      <div class="team-member">
-                    <div class="member-image">
-                        <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="سليمان">
-                    </div>
-                    <div class="member-info">
-                        <h3>حلا</h3>
-                        <h3 style="display: none;">hala</h3>
-                        <p class="ar-text">عضو الفريق</p>
-                        <p class="en-text" style="display: none;">Team Member</p>
-                    </div>
-                    
-                
-                <div class="team-member">
-                    <div class="member-image">
-                        <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="رواء">
-                    </div>
-                    <div class="member-info">
-                        <h3>رواء</h3>
-                        <h3 style="display: none;">Ruwa</h3>
-                        <p class="ar-text">عضو الفريق</p>
-                        <p class="en-text" style="display: none;">Team Member</p>
-                    </div>
-                     </div>
-                
-                <div class="team-member">
-                    <div class="member-image">
-                        <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="هتون">
-                    </div>
-                    <div class="member-info">
-                        <h3>هتون</h3>
-                        <h3 style="display: none;">hatoon</h3>
-                        <p class="ar-text">عضو الفريق</p>
-                        <p class="en-text" style="display: none;">Team Member</p>
-                    </div>
-                     </div>
-                
-                <div class="team-member">
-                    <div class="member-image">
-                        <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="noor">
-                    </div>
-                    <div class="member-info">
-                        <h3>نور</h3>
-                        <h3 style="display: none;">Noor</h3>
-                        <p class="ar-text">عضو الفريق</p>
-                        <p class="en-text" style="display: none;">Team Member</p>
-                    </div>
+                <div class="member-info">
+                    <h3>سليمان</h3>
+                    <h3 style="display: none;">Sulaiman</h3>
+                    <p class="ar-text">عضو الفريق</p>
+                    <p class="en-text" style="display: none;">Team Member</p>
+                </div>
+            </div>
+            
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="https://via.placeholder.com/300x300?text=Mahmood" alt="محمود">
+                </div>
+                <div class="member-info">
+                    <h3>محمود</h3>
+                    <h3 style="display: none;">Mahmood</h3>
+                    <p class="ar-text">عضو الفريق</p>
+                    <p class="en-text" style="display: none;">Team Member</p>
+                </div>
+            </div>
+            
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="https://via.placeholder.com/300x300?text=Majed" alt="ماجد">
+                </div>
+                <div class="member-info">
+                    <h3>ماجد</h3>
+                    <h3 style="display: none;">Majed</h3>
+                    <p class="ar-text">عضو الفريق</p>
+                    <p class="en-text" style="display: none;">Team Member</p>
+                </div>
+            </div>
+            
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="https://via.placeholder.com/300x300?text=Hala" alt="حلا">
+                </div>
+                <div class="member-info">
+                    <h3>حلا</h3>
+                    <h3 style="display: none;">Hala</h3>
+                    <p class="ar-text">عضو الفريق</p>
+                    <p class="en-text" style="display: none;">Team Member</p>
+                </div>
+            </div>
+            
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="https://via.placeholder.com/300x300?text=Ruwa" alt="رواء">
+                </div>
+                <div class="member-info">
+                    <h3>رواء</h3>
+                    <h3 style="display: none;">Ruwa</h3>
+                    <p class="ar-text">عضو الفريق</p>
+                    <p class="en-text" style="display: none;">Team Member</p>
+                </div>
+            </div>
+            
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="https://via.placeholder.com/300x300?text=Hatoon" alt="هتون">
+                </div>
+                <div class="member-info">
+                    <h3>هتون</h3>
+                    <h3 style="display: none;">Hatoon</h3>
+                    <p class="ar-text">عضو الفريق</p>
+                    <p class="en-text" style="display: none;">Team Member</p>
+                </div>
+            </div>
+            
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="https://via.placeholder.com/300x300?text=Noor" alt="نور">
+                </div>
+                <div class="member-info">
+                    <h3>نور</h3>
+                    <h3 style="display: none;">Noor</h3>
+                    <p class="ar-text">عضو الفريق</p>
+                    <p class="en-text" style="display: none;">Team Member</p>
                 </div>
             </div>
         </div>
+    </div>
     </section>
     
     <!-- Achievements Section -->
