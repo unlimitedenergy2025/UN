@@ -905,7 +905,7 @@
                     <div class="member-info">
                         <h3>رند</h3>
                         <h3 style="display: none;">Rand</h3>
-                        <p class="ar-text">عضوة الفريق</p>
+                        <p class="ar-text">عضو الفريق</p>
                         <p class="en-text" style="display: none;">Team Member</p>
                     </div>
                 </div>
@@ -917,7 +917,67 @@
                     <div class="member-info">
                         <h3>سليمان</h3>
                         <h3 style="display: none;">Sulaiman</h3>
-                        <p class="ar-text">عضوة الفريق</p>
+                        <p class="ar-text">عضو الفريق</p>
+                        <p class="en-text" style="display: none;">Team Member</p>
+                    </div>
+                     </div>
+                
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="سليمان">
+                    </div>
+                    <div class="member-info">
+                        <h3>محمود </h3>
+                        <h3 style="display: none;">Sulaiman</h3>
+                        <p class="ar-text">عضو الفريق</p>
+                        <p class="en-text" style="display: none;">Team Member</p>
+                    </div>
+                     </div>
+                
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="سليمان">
+                    </div>
+                    <div class="member-info">
+                        <h3>ماجد</h3>
+                        <h3 style="display: none;">Sulaiman</h3>
+                        <p class="ar-text">عضو الفريق</p>
+                        <p class="en-text" style="display: none;">Team Member</p>
+                    </div>
+                     </div>
+                
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="سليمان">
+                    </div>
+                    <div class="member-info">
+                        <h3>رواء</h3>
+                        <h3 style="display: none;">Sulaiman</h3>
+                        <p class="ar-text">عضو الفريق</p>
+                        <p class="en-text" style="display: none;">Team Member</p>
+                    </div>
+                     </div>
+                
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="سليمان">
+                    </div>
+                    <div class="member-info">
+                        <h3>هتون</h3>
+                        <h3 style="display: none;">Sulaiman</h3>
+                        <p class="ar-text">عضو الفريق</p>
+                        <p class="en-text" style="display: none;">Team Member</p>
+                    </div>
+                     </div>
+                
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="سليمان">
+                    </div>
+                    <div class="member-info">
+                        <h3>نور</h3>
+                        <h3 style="display: none;">Sulaiman</h3>
+                        <p class="ar-text">عضو الفريق</p>
                         <p class="en-text" style="display: none;">Team Member</p>
                     </div>
                 </div>
