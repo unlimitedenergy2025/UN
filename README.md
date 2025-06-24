@@ -1591,5 +1591,3 @@ document.getElementById('show-admin-btn').addEventListener('click', () => {
 // 6. عرض المقالات عند تحميل الصفحة
 displayBlogPosts();
     </script>
-</body>
-</html>
