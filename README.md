@@ -948,7 +948,7 @@
             
             <div class="team-member">
                 <div class="member-image">
-                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/fgSyFtK/IMG-20250624-WA0057.png" alt="IMG-20250624-WA0057" border="0"></a>" alt="حسام">
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/Rp9h842T/IMG.png" alt="IMG" border="0"></a>" alt="حسام">
                 </div>
                 <div class="member-info">
                     <h3>حسام</h3>
@@ -960,7 +960,7 @@
             
             <div class="team-member">
                 <div class="member-image">
-                    <img src="https://ibb.co/dz4YsFX" alt="رند">
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/Q3pZFvyW/IMG.png" alt="IMG" border="0"></a>" alt="رند">
                 </div>
                 <div class="member-info">
                     <h3>رند</h3>
@@ -984,7 +984,7 @@
             
             <div class="team-member">
                 <div class="member-image">
-                <a href="https://ibb.co/0VXPbRhW"><img src="https://i.ibb.co/tPhyrT8N/Screenshot-99c04817c0de5652397fc8b56c3b3817.png" alt="Screenshot-99c04817c0de5652397fc8b56c3b3817" border="0"></a>" alt="محمود">
+                <a href="https://imgbb.com/"><img src="https://i.ibb.co/V0wKjdcG/IMG.png" alt="IMG" border="0"></a>" alt="محمود">
                 </div>
                 <div class="member-info">
                     <h3>محمود</h3>
@@ -1020,7 +1020,7 @@
             
             <div class="team-member">
                 <div class="member-image">
-                    <img src="https://via.placeholder.com/300x300?text=Ruwa" alt="رواء">
+                   <a href="https://imgbb.com/"><img src="https://i.ibb.co/XZ9tSckT/IMG.png" alt="IMG" border="0"></a>" alt="رواء">
                 </div>
                 <div class="member-info">
                     <h3>رواء</h3>
