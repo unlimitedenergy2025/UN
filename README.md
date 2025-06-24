@@ -1131,7 +1131,7 @@
             
             <div class="about-content">
                 <div class="about-image">
-                    <img src="https://via.placeholder.com/600x400?text=Nahno+Platform" alt="منصة نحن">
+                    <img src="https://www.nahno.org/images/logo.png" alt="منصة نحن">
                 </div>
                 
                 <div class="about-text">
