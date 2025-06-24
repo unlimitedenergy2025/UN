@@ -988,7 +988,7 @@
                     </div>
                     <div class="member-info">
                         <h3>محمود </h3>
-                        <h3 style="display: none;">Sulaiman</h3>
+                        <h3 style="display: none;">Mahmood</h3>
                         <p class="ar-text">عضو الفريق</p>
                         <p class="en-text" style="display: none;">Team Member</p>
                     </div>
@@ -996,23 +996,34 @@
                 
                 <div class="team-member">
                     <div class="member-image">
-                        <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="سليمان">
+                        <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="ماجد">
                     </div>
                     <div class="member-info">
                         <h3>ماجد</h3>
-                        <h3 style="display: none;">Sulaiman</h3>
+                        <h3 style="display: none;">Majed</h3>
                         <p class="ar-text">عضو الفريق</p>
                         <p class="en-text" style="display: none;">Team Member</p>
                     </div>
                      </div>
+                      <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="سليمان">
+                    </div>
+                    <div class="member-info">
+                        <h3>حلا</h3>
+                        <h3 style="display: none;">hala</h3>
+                        <p class="ar-text">عضو الفريق</p>
+                        <p class="en-text" style="display: none;">Team Member</p>
+                    </div>
+                    
                 
                 <div class="team-member">
                     <div class="member-image">
-                        <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="سليمان">
+                        <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="رواء">
                     </div>
                     <div class="member-info">
                         <h3>رواء</h3>
-                        <h3 style="display: none;">Sulaiman</h3>
+                        <h3 style="display: none;">Ruwa</h3>
                         <p class="ar-text">عضو الفريق</p>
                         <p class="en-text" style="display: none;">Team Member</p>
                     </div>
@@ -1020,11 +1031,11 @@
                 
                 <div class="team-member">
                     <div class="member-image">
-                        <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="سليمان">
+                        <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="هتون">
                     </div>
                     <div class="member-info">
                         <h3>هتون</h3>
-                        <h3 style="display: none;">Sulaiman</h3>
+                        <h3 style="display: none;">hatoon</h3>
                         <p class="ar-text">عضو الفريق</p>
                         <p class="en-text" style="display: none;">Team Member</p>
                     </div>
@@ -1032,11 +1043,11 @@
                 
                 <div class="team-member">
                     <div class="member-image">
-                        <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="سليمان">
+                        <img src="https://via.placeholder.com/300x300?text=Sulaiman" alt="noor">
                     </div>
                     <div class="member-info">
                         <h3>نور</h3>
-                        <h3 style="display: none;">Sulaiman</h3>
+                        <h3 style="display: none;">Noor</h3>
                         <p class="ar-text">عضو الفريق</p>
                         <p class="en-text" style="display: none;">Team Member</p>
                     </div>
