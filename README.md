@@ -301,7 +301,7 @@
         }
         
       .partner-card {
-    background-color: #f8f9fa; /* يمكنك تغيير هذا اللون إلى ما تريد */
+    background-color: #ffffff; /* يمكنك تغيير هذا اللون إلى ما تريد */
     border-radius: 10px;
     padding: 30px;
     text-align: center;
