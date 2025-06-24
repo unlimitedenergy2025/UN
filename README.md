@@ -838,23 +838,23 @@
                 </div>
                 
                 <div class="partner-card">
-                    <img src="https://via.placeholder.com/150x80?text=TAQA+SPEC" alt="TAQA SPEC">
-                    <h3>TAQA SPEC</h3>
+                    <img src="https://taqaspace.com/wp-content/uploads/2024/11/Taqa-5000-x-5000-px-e1732360498333.png" alt="TAQA SPEC">
+                    <h3>TAQA SPACE</h3>
                 </div>
                 
                 <div class="partner-card">
-                    <img src="https://via.placeholder.com/150x80?text=Photoeste" alt="Photoeste">
-                    <h3>Photoeste</h3>
+                    <img src="https://www.photoeast-academy.com/store/1/Untitled-1.png" alt="Photoeste">
+                    <h3>Photoeast</h3>
                 </div>
                 
                 <div class="partner-card">
-                    <img src="https://via.placeholder.com/150x80?text=Jordan+Engineers+Association" alt="نقابة المهندسين الأردنيين">
+                    <img src="https://www.jea.org.jo/ebv4.0/root_storage/ar/eb_homepage/asset_1.png" alt="نقابة المهندسين الأردنيين">
                     <h3 class="ar-text">نقابة المهندسين الأردنيين</h3>
                     <h3 class="en-text" style="display: none;">Jordan Engineers Association</h3>
                 </div>
                 
                 <div class="partner-card">
-                    <img src="https://via.placeholder.com/150x80?text=AABU" alt="جامعة آل البيت">
+                    <img src="https://www.aabu.edu.jo/_layouts/15/AABUResp/EN/img/arabic.png" alt="جامعة آل البيت">
                     <h3 class="ar-text">جامعة آل البيت</h3>
                     <h3 class="en-text" style="display: none;">Al al-Bayt University</h3>
                 </div>
