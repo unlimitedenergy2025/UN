@@ -730,6 +730,65 @@
                 flex-direction: column;
             }
         }
+        /* أنماط المدونة */
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.blog-post {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.blog-post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.blog-image {
+    height: 200px;
+    overflow: hidden;
+}
+
+.blog-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.blog-content {
+    padding: 20px;
+}
+
+.blog-content h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.blog-content p {
+    color: #7f8c8d;
+    margin-bottom: 15px;
+}
+
+.blog-date {
+    font-size: 0.8rem;
+    color: #7f8c8d;
+}
+
+.blog-admin {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
     </style>
 </head>
 <body>
@@ -1085,6 +1144,56 @@
                 </div>
             </div>
         </div>
+        <!-- قسم المدونة -->
+<section class="section blog" id="blog">
+    <div class="container">
+        <div class="section-title">
+            <h2 class="ar-text">📰 المدونة</h2>
+            <h2 class="en-text" style="display: none;">📰 Blog</h2>
+        </div>
+        
+        <div class="blog-grid" id="blog-posts">
+            <!-- سيتم عرض المقالات هنا تلقائيًا -->
+        </div>
+        
+        <!-- زر لإظهار واجهة الإدارة (للمسؤولين فقط) -->
+        <button id="show-admin-btn" class="btn" style="margin: 30px auto; display: block;">
+            <span class="ar-text">إدارة المدونة</span>
+            <span class="en-text" style="display: none;">Manage Blog</span>
+        </button>
+        
+        <!-- واجهة إضافة مقال جديد (مخفية في البداية) -->
+        <div class="blog-admin" style="display: none;" id="blog-admin">
+            <h3 class="ar-text">إضافة مقال جديد</h3>
+            <h3 class="en-text" style="display: none;">Add New Post</h3>
+            
+            <form id="blog-form">
+                <div class="form-group">
+                    <label for="blog-title" class="ar-text">عنوان المقال</label>
+                    <label for="blog-title" class="en-text" style="display: none;">Post Title</label>
+                    <input type="text" id="blog-title" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="blog-content" class="ar-text">المحتوى</label>
+                    <label for="blog-content" class="en-text" style="display: none;">Content</label>
+                    <textarea id="blog-content" rows="6" required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="blog-image" class="ar-text">رابط الصورة (اختياري)</label>
+                    <label for="blog-image" class="en-text" style="display: none;">Image URL (Optional)</label>
+                    <input type="url" id="blog-image" placeholder="https://example.com/image.jpg">
+                </div>
+                
+                <button type="submit" class="btn">
+                    <span class="ar-text">نشر</span>
+                    <span class="en-text" style="display: none;">Publish</span>
+                </button>
+            </form>
+        </div>
+        
+    </div>
     </section>
     
     <!-- Volunteer Section -->
@@ -1399,6 +1508,76 @@
         
         window.addEventListener('scroll', animateOnScroll);
         window.addEventListener('load', animateOnScroll);
+        // ============ إدارة المدونة ============
+// 1. تخزين المقالات في localStorage
+let blogPosts = JSON.parse(localStorage.getItem('blogPosts')) || [];
+
+// 2. عرض المقالات عند تحميل الصفحة
+function displayBlogPosts() {
+    const blogGrid = document.getElementById('blog-posts');
+    blogGrid.innerHTML = '';
+    
+    blogPosts.forEach((post, index) => {
+        const postElement = document.createElement('div');
+        postElement.className = 'blog-post';
+        postElement.innerHTML = `
+            <div class="blog-image">
+                <img src="${post.image || 'https://via.placeholder.com/600x400?text=No+Image'}" alt="${post.title}">
+            </div>
+            <div class="blog-content">
+                <h3>${post.title}</h3>
+                <p>${post.content.substring(0, 100)}...</p>
+                <div class="blog-date">${new Date(post.date).toLocaleDateString('ar-EG')}</div>
+                <button onclick="deletePost(${index})" class="btn" style="margin-top: 10px; background-color: #e74c3c;">
+                    <span class="ar-text">حذف</span>
+                    <span class="en-text" style="display: none;">Delete</span>
+                </button>
+            </div>
+        `;
+        blogGrid.appendChild(postElement);
+    });
+}
+
+// 3. إضافة مقال جديد
+document.getElementById('blog-form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    
+    const newPost = {
+        title: document.getElementById('blog-title').value,
+        content: document.getElementById('blog-content').value,
+        image: document.getElementById('blog-image').value || null,
+        date: new Date().toISOString()
+    };
+    
+    blogPosts.unshift(newPost);
+    localStorage.setItem('blogPosts', JSON.stringify(blogPosts));
+    
+    displayBlogPosts();
+    document.getElementById('blog-form').reset();
+    alert('تم نشر المقال بنجاح!');
+});
+
+// 4. حذف مقال
+function deletePost(index) {
+    if (confirm('هل أنت متأكد من حذف هذا المقال؟')) {
+        blogPosts.splice(index, 1);
+        localStorage.setItem('blogPosts', JSON.stringify(blogPosts));
+        displayBlogPosts();
+    }
+}
+
+// 5. إظهار/إخفاء واجهة الإدارة
+document.getElementById('show-admin-btn').addEventListener('click', () => {
+    const password = prompt('أدخل كلمة المرور للإدارة:');
+    if (password === 'unlimited123') { // يمكنك تغيير كلمة المرور
+        document.getElementById('blog-admin').style.display = 'block';
+    } else {
+        alert('كلمة المرور غير صحيحة');
+    }
+});
+
+// 6. عرض المقالات عند تحميل الصفحة
+displayBlogPosts();
     </script>
 </body>
 </html>
