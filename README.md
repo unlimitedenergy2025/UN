@@ -545,7 +545,7 @@
         .form-group textarea {
             width: 100%;
             padding: 12px;
-            border: 1px solid #ddd;
+            border: 1px solid #8fa4f2;
             border-radius: 5px;
             font-family: inherit;
             transition: var(--transition);
