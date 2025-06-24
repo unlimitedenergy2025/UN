@@ -936,7 +936,7 @@
         <div class="team-grid">
             <div class="team-member">
                 <div class="member-image">
-                    <img src="https://ibb.co/B2x40jjJ" alt="فرحان">
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/TMSK9RRG/IMG.png" alt="IMG" border="0"></a>" alt="فرحان">
                 </div>
                 <div class="member-info">
                     <h3>فرحان</h3>
@@ -948,7 +948,7 @@
             
             <div class="team-member">
                 <div class="member-image">
-                    <img src="https://ibb.co/V1Nz9Dh" alt="حسام">
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/fgSyFtK/IMG-20250624-WA0057.png" alt="IMG-20250624-WA0057" border="0"></a>" alt="حسام">
                 </div>
                 <div class="member-info">
                     <h3>حسام</h3>
@@ -984,7 +984,7 @@
             
             <div class="team-member">
                 <div class="member-image">
-                    <img src="https://ibb.co/0VXPbRhW" alt="محمود">
+                <a href="https://ibb.co/0VXPbRhW"><img src="https://i.ibb.co/tPhyrT8N/Screenshot-99c04817c0de5652397fc8b56c3b3817.png" alt="Screenshot-99c04817c0de5652397fc8b56c3b3817" border="0"></a>" alt="محمود">
                 </div>
                 <div class="member-info">
                     <h3>محمود</h3>
@@ -996,7 +996,7 @@
             
             <div class="team-member">
                 <div class="member-image">
-                    <img src="https://ibb.co/CNt5JV6" alt="ماجد">
+                <a href="https://imgbb.com/"><img src="https://i.ibb.co/NQ361Wr/IMG-20250624-WA0056.png" alt="IMG-20250624-WA0056" border="0"></a>" alt="ماجد">
                 </div>
                 <div class="member-info">
                     <h3>ماجد</h3>
@@ -1008,7 +1008,7 @@
             
             <div class="team-member">
                 <div class="member-image">
-                    <img src="https://ibb.co/Hf18SfyY" alt="حلا">
+                   <a href="https://ibb.co/Hf18SfyY"><img src="https://i.ibb.co/dw1YTwv6/Screenshot-99c04817c0de5652397fc8b56c3b3817.png" alt="Screenshot-99c04817c0de5652397fc8b56c3b3817" border="0"></a>" alt="حلا">
                 </div>
                 <div class="member-info">
                     <h3>حلا</h3>
