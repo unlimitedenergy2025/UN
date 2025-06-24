@@ -300,13 +300,10 @@
             margin-top: 40px;
         }
         
-        .partner-card {
-            background-color: white;
-            border-radius: 10px;
-            padding: 30px;
-            text-align: center;
-            box-shadow: var(--box-shadow);
-            transition: var(--transition);
+       .partner-card {
+    background-color: transparent;
+    border: 1px solid #dee2e6; /* لون الإطار */
+    /* باقي الخصائص */
         }
         
         .partner-card:hover {
