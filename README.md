@@ -300,10 +300,14 @@
             margin-top: 40px;
         }
         
-       .partner-card {
-    background-color: transparent;
-    border: 1px solid #dee2e6; /* لون الإطار */
-    /* باقي الخصائص */
+      .partner-card {
+    background-color: #f8f9fa; /* يمكنك تغيير هذا اللون إلى ما تريد */
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+
         }
         
         .partner-card:hover {
