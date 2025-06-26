@@ -1032,19 +1032,7 @@
             
             <div class="team-member">
                 <div class="member-image">
-                    <img src="https://via.placeholder.com/300x300?text=Hatoon" alt="هتون">
-                </div>
-                <div class="member-info">
-                    <h3>هتون</h3>
-                    <h3 style="display: none;">Hatoon</h3>
-                    <p class="ar-text">عضو الفريق</p>
-                    <p class="en-text" style="display: none;">Team Member</p>
-                </div>
-            </div>
-            
-            <div class="team-member">
-                <div class="member-image">
-                    <img src="https://via.placeholder.com/300x300?text=Noor" alt="نور">
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/npjR56Z/image-4.png" alt="image-4" border="0"></a> alt="نور">
                 </div>
                 <div class="member-info">
                     <h3>نور</h3>
